@@ -8,8 +8,9 @@ This Python script allows you to batch convert JPEG images to WEBP format while 
 - Pillow (PIL) library
 
 You can install the required library using the following command:
+```bash
 pip install Pillow
-
+```
 ## Usage
 
 1. Place your JPEG images in sub-folders within the "Image" directory.
