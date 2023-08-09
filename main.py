@@ -17,14 +17,14 @@ def convert_jpeg_to_webp(input_path, output_path, new_width, new_height, quality
 
 if __name__ == "__main__":
     # Replace with the path to your "Album" directory
-    album_directory = "albums"
+    album_directory = "images"
     # New width for resized images
     new_width = 1920
     # New height for resized images
     new_height = 1080
     # Adjust the quality as needed (0-100)
     quality = 80
-    # albums/[...] --> output/[...]
+    # images/[...] --> output/[...]
     for subfolder_name in os.listdir(album_directory):
         subfolder_path = os.path.join(album_directory, subfolder_name)
         if os.path.isdir(subfolder_path):
