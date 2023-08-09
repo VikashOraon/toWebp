@@ -15,7 +15,7 @@ pip install Pillow
 1. Place your JPEG images in sub-folders within the "Image" directory.
 2. Clone or download this repository to your local machine.
 
-    https://github.com/your-username/your-repo.git
+    https://github.com/VikashOraon/toWebp.git
 3. Open a terminal and navigate to the project directory.
 
     `cd your-repo`
